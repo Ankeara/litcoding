@@ -1,0 +1,915 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lit Coding || 2024 </title>
+    <link rel="stylesheet" href="../asset_frontend/css/main.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+<body>
+    <!-- Navbar start -->
+    <nav>
+        <div class="navbar">
+            <div class="left-menu">
+                <div class="logo-box">
+                    <a href="#" class="logo">
+                        <img src="../asset_frontend/image/lit-logo.png" alt="litcoding">
+                        <h2 class="logo-name">LitCoding.</h2>
+                    </a>
+                </div>
+                <ul class="menu-lists">
+                    <li><a href="#" class="links">Home</a></li>
+                    <li>
+                        <a href="#" class="links">Coding <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="sub-menu">
+                            <div class="line"></div>
+                            <li><a href="#">HTML & CSS</a></li>
+                            <li><a href="#">JavaScript</a></li>
+                            <li><a href="#">PHP & MySql</a></li>
+                            <li><a href="#">Laravel</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="links">Pages <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="sub-menu">
+                            <div class="line"></div>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Our Creator</a></li>
+                            <li><a href="#">Sign In</a></li>
+                            <li><a href="#">Sign Up</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="links">Blogs <i class="fa-solid fa-chevron-down"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="right-menu">
+                <div class="box-search">
+                    <div class="categories">
+                        <img src="../asset_frontend/image/menu.png" alt="category">
+                        <div class="category_drop drop">
+                            <span>Categories</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <ul class="dropdown-categories">
+                            <div class="line"></div>
+                            <li><a href="#">All template</a></li>
+                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Design</a></li>
+                        </ul>
+                    </div>
+                    <div class="input-search">
+                        <form action="" method="post">
+                            <input type="text" name="search" id="search" placeholder="Search for template...">
+                            <button type="submit" class="icon-search">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <a href="#" class="login">Login</a>
+            </div>
+            <div class="menu-bar">
+                <img src="../asset_frontend/image/menu-bar.png" alt="menu-bar">
+            </div>
+        </div>
+        <!-- Navbar phone  -->
+        <div class="navbar-phone">
+            <div class="header-phone">
+                <div class="logo-box">
+                    <a href="#" class="logo">
+                        <img src="../asset_frontend/image/lit-logo.png" alt="litcoding">
+                        <h2 class="logo-name">LitCoding.</h2>
+                    </a>
+                </div>
+                <div class="x-menu">
+                    <i class="fa-solid fa-x"></i>
+                </div>
+            </div>
+            <div class="input-search-phone">
+                <form action="" method="post">
+                    <input type="text" name="search" id="search" placeholder="Search for template...">
+                    <button type="submit" class="icon-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </div>
+            <ul class="drop-menu-lists">
+                <li class="lists">
+                    <a href="#">Home</a>
+                </li>
+                <li class="lists">
+                    <div class="links">
+                        <a href="#">Coding</a>
+                        <div class="dropdown-btn">
+                            <span class="plus-line">+</span>
+                        </div>
+                    </div>
+                    <ul class="sub-menu">
+                        <li><a href="#">HTML & CSS</a></li>
+                        <li><a href="#">JavaScript</a></li>
+                        <li><a href="#">PHP & MySql</a></li>
+                        <li><a href="#">Laravel</a></li>
+                    </ul>
+                </li>
+                <li class="lists">
+                    <div class="links">
+                        <a href="#">Pages</a>
+                        <div class="dropdown-btn">
+                            <span class="plus-line">+</span>
+                        </div>
+                    </div>
+                    <ul class="sub-menu">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Our Creator</a></li>
+                        <li><a href="#">Sign In</a></li>
+                        <li><a href="#">Sign Up</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+        <div class="background-backdrop"></div>
+        <!-- Navbar phone  -->
+    </nav>
+    <!-- Navbar end -->
+    
+    <!-- Home session -->
+    <section>
+        <div class="home">
+            <div class="left-home">
+                <h1 class="title_home">សូមស្វាគមន៍ដែលបាន 👋</h1>
+                <h1 class="title_home">ចូលមកកាន់ <span>website</span> របស់ខ្ញុំ</h1>
+                <p class="detail_website">អ្នកទាំងអស់គ្នាអាច​ចូលមក Website របស់ខ្ញុំ ហើយក៏អាចចម្លងនូវកូដរបស់ខ្ញុំបានដូចគ្នា 🫶</p>
+                <div class="link-view">
+                    <a href="#">មើលកូដ <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="univers">
+                    <div class="univers-shape">
+                        <div class="spacese one">
+                            <img src="../asset_frontend/image/univers/astronaut (1).png" alt="">
+                        </div>
+                        <div class="spacese two">
+                            <img src="../asset_frontend/image/univers/spiral-galaxy (1).png" alt="">
+                        </div>
+                        <div class="spacese tree">
+                            <img src="../asset_frontend/image/univers/spiral-galaxy.png"  alt="">
+                        </div>
+                        <div class="spacese four">
+                            <img src="../asset_frontend/image/univers/universe.png" alt="">
+                        </div>
+                        <div class="spacese five">
+                            <img src="../asset_frontend/image/univers/rocket (1).png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-home">
+                <div class="box_banner">
+                    <div class="shape_one shape">
+                        <img src="../asset_frontend/image/banner_shape02.svg" alt="">
+                    </div>
+                    <div class="shape_two shape">
+                        <img src="../asset_frontend/image/bg_dots.svg" alt="">
+                    </div>
+                    <div class="shape_tree shape">
+                        <img src="../asset_frontend/image/banner_shape01.png" alt="">
+                    </div>
+                    <div class="banner shape">
+                        <img src="../asset_frontend/image/profiles/japan-programming-men.png" alt="">
+                    </div>
+                    <div class="lists_creator">
+                        <div class="creator">
+                            <img src="../asset_frontend/image/profiles/japan-programming-men.png" alt="korea">
+                            <span class="name_list">Lit Lit</span>
+                        </div>
+                        <div class="creator">
+                            <img src="../asset_frontend/image/profiles/korean-women3.png" alt="korea">
+                            <span class="name_list">Rosa Chhun</span>
+                        </div>
+                        <div class="creator">
+                            <img src="../asset_frontend/image/profiles/japan-programming9.png" alt="korea">
+                            <span class="name_list">Hout Ankeara</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>     
+    </section>
+    <!-- Home session -->
+
+    <!-- Top trending category -->
+    <section>
+        <div class="top_category">
+            <div class="header_category">
+                <h5 class="title_cate">Trending categories</h5>
+                <h2 class="detail_cate">Top categories <span>ដែលយើងមាន</span></h2>
+                <p class="des_cate">All of categories with total category one by one</p>    
+            </div>
+            <div class="display_cate ">
+                <div class="box-cate">
+                    <a href="#" class="item-cate one">
+                       <div class="cate-img">
+                        <img src="../asset_frontend/image/Programming pic/html.png" alt="html">
+                       </div>
+                        <div class="box-name">
+                            <span class="name_cate">HTML & CSS</span>
+                            <p class="count-cate">(0)</p>
+                        </div>
+                    </a>
+                    <a href="#" class="item-cate two">
+                        <div class="cate-img">
+                            <img src="../asset_frontend/image/Programming pic/js.png" alt="html">
+                        </div>
+                        <div class="box-name">
+                            <span class="name_cate">JavaScript</span>
+                            <p class="count-cate">(0)</p>
+                        </div>
+                    </a>
+                    <a href="#" class="item-cate tree">
+                        <div class="cate-img">
+                            <img src="../asset_frontend/image/Programming pic/php.png" alt="html">
+                        </div>
+                        <div class="box-name">
+                            <span class="name_cate">PHP</span>
+                            <p class="count-cate">(0)</p>
+                        </div>
+                    </a>
+                    <a href="#" class="item-cate four">
+                        <div class="cate-img">
+                            <img src="../asset_frontend/image/Programming pic/laravel.png" alt="html">
+                        </div>
+                        <div class="box-name">
+                            <span class="name_cate">Laravel</span>
+                            <p class="count-cate">(0)</p>
+                        </div>
+                    </a>
+                    <a href="#" class="item-cate five">
+                        <div class="cate-img">
+                            <img src="../asset_frontend/image/Programming pic/mysql (1).png" alt="html">
+                        </div>
+                        <div class="box-name">
+                            <span class="name_cate">MySql</span>
+                            <p class="count-cate">(0)</p>
+                        </div>
+                    </a>
+                    <a href="#" class="item-cate six">
+                        <div class="cate-img">
+                            <img src="../asset_frontend/image/Programming pic/react.jpg" alt="html">
+                        </div>
+                        <div class="box-name">
+                            <span class="name_cate">React JS</span>
+                            <p class="count-cate">(0)</p>
+                        </div>
+                    </a>
+                    <a href="#" class="item-cate seven">
+                        <div class="cate-img">
+                            <img src="../asset_frontend/image/Programming pic/tailwind.jpg" alt="html">
+                        </div>
+                        <div class="box-name">
+                            <span class="name_cate">Tailwind CSS</span>
+                            <p class="count-cate">(0)</p>
+                        </div>
+                    </a>
+                    <a href="#" class="item-cate eight">
+                        <div class="cate-img">
+                            <img src="../asset_frontend/image/Programming pic/programing.png" alt="html">
+                        </div>
+                        <div class="box-name">
+                            <span class="name_cate">Node JS</span>
+                            <p class="count-cate">(0)</p>
+                        </div>
+                    </a>
+                    <a href="#" class="item-cate nine">
+                        <div class="cate-img">
+                            <img src="../asset_frontend/image/Programming pic/document.png" alt="html">
+                        </div>
+                        <div class="box-name">
+                            <span class="name_cate">Vue JS</span>
+                            <p class="count-cate">(0)</p>
+                        </div>
+                    </a>
+                    <a href="#" class="item-cate ten">
+                        <div class="cate-img">
+                            <img src="../asset_frontend/image/Programming pic/c-sharp.png" alt="html">
+                        </div>
+                        <div class="box-name">
+                            <span class="name_cate">C Sharp</span>
+                            <p class="count-cate">(0)</p>
+                        </div>
+                    </a>
+                    <a href="#" class="item-cate eleven">
+                        <div class="cate-img">
+                            <img src="../asset_frontend/image/Programming pic/sql-server.png" alt="html">
+                        </div>
+                        <div class="box-name">
+                            <span class="name_cate">Sql Server</span>
+                            <p class="count-cate">(0)</p>
+                        </div>
+                    </a>
+                    <a href="#" class="item-cate twelve">
+                        <div class="cate-img">
+                            <img src="../asset_frontend/image/Programming pic/java (1).png" alt="html">
+                        </div>
+                        <div class="box-name">
+                            <span class="name_cate">Java</span>
+                            <p class="count-cate">(0)</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Top trending category -->
+
+    <!-- Explore our template -->
+    <section>
+        <div class="top_template">
+            <div class="header_template">
+                <h5 class="title_template">Trending template</h5>
+                <h2 class="detail_template">Explore our template</h2>
+                <p class="des_template">All of template <span>ដែលយើងមាន</span></p>
+            </div>
+            <div class="filter_template">
+                <button class="tab-btn active" data-tab="all_template">All template</button>
+                <button class="tab-btn" data-tab="development">Development</button>
+                <button class="tab-btn" data-tab="design">Design</button>
+            </div>
+            <div class="display_template mySwiper" id="all_template">
+                <div class="box-template swiper-wrapper" >
+                    <div class="item-template swiper-slide">
+                        <a href="#" class="template-img">
+                            <img src="../asset_frontend/image/profiles/japan-playboy.png" alt="html">
+                        </a>
+                        <div class="link_cate">
+                            <a href="#" class="cate">Development</a>
+                        </div>
+                        <div class="template_name">
+                            <a href="#" class="name">
+                                ONE ONE<br>hsgfhs
+                            </a>
+                        </div>
+                        <div class="post_by">
+                            <span>By -> </span>
+                            <a href="#" class="by_user">Ankeara</a>
+                        </div>
+                        <div class="link_detail">
+                            <a href="#" class="detail">Start</a>
+                        </div>
+                    </div>
+                    <div class="item-template swiper-slide">
+                        <a href="#" class="template-img">
+                            <img src="../asset_frontend/image/profiles/japan-playboy2.png" alt="html">
+                        </a>
+                        <div class="link_cate">
+                            <a href="#" class="cate">Development</a>
+                        </div>
+                        <div class="template_name">
+                            <a href="#" class="name">
+                                Laravel 10 CRUD with MySqldjd<br>hsgfhs
+                            </a>
+                        </div>
+                        <div class="post_by">
+                            <span>By -> </span>
+                            <a href="#" class="by_user">Ankeara</a>
+                        </div>
+                        <div class="link_detail">
+                            <a href="#" class="detail">Start</a>
+                        </div>
+                    </div>
+                    <div class="item-template swiper-slide">
+                        <a href="#" class="template-img">
+                            <img src="../asset_frontend/image/profiles/japan-playboy3.png" alt="html">
+                        </a>
+                        <div class="link_cate">
+                            <a href="#" class="cate">Development</a>
+                        </div>
+                        <div class="template_name">
+                            <a href="#" class="name">
+                                Laravel 10 CRUD with MySqldjd<br>hsgfhs
+                            </a>
+                        </div>
+                        <div class="post_by">
+                            <span>By -> </span>
+                            <a href="#" class="by_user">Ankeara</a>
+                        </div>
+                        <div class="link_detail">
+                            <a href="#" class="detail">Start</a>
+                        </div>
+                    </div>
+                    <div class="item-template swiper-slide">
+                        <a href="#" class="template-img">
+                            <img src="../asset_frontend/image/profiles/japan-playboy4.png" alt="html">
+                        </a>
+                        <div class="link_cate">
+                            <a href="#" class="cate">Development</a>
+                        </div>
+                        <div class="template_name">
+                            <a href="#" class="name">
+                                Laravel 10 CRUD with MySqldjd<br>hsgfhs
+                            </a>
+                        </div>
+                        <div class="post_by">
+                            <span>By -> </span>
+                            <a href="#" class="by_user">Ankeara</a>
+                        </div>
+                        <div class="link_detail">
+                            <a href="#" class="detail">Start</a>
+                        </div>
+                    </div>
+                    <div class="item-template swiper-slide">
+                        <a href="#" class="template-img">
+                            <img src="../asset_frontend/image/profiles/japan-programming-men2.png" alt="html">
+                        </a>
+                        <div class="link_cate">
+                            <a href="#" class="cate">Development</a>
+                        </div>
+                        <div class="template_name">
+                            <a href="#" class="name">
+                                Laravel 10 CRUD with MySqldjd<br>hsgfhs
+                            </a>
+                        </div>
+                        <div class="post_by">
+                            <span>By -> </span>
+                            <a href="#" class="by_user">Ankeara</a>
+                        </div>
+                        <div class="link_detail">
+                            <a href="#" class="detail">Start</a>
+                        </div>
+                    </div>
+                    <div class="item-template swiper-slide">
+                        <a href="#" class="template-img">
+                            <img src="../asset_frontend/image/profiles/japan-programming-women.png" alt="html">
+                        </a>
+                        <div class="link_cate">
+                            <a href="#" class="cate">Development</a>
+                        </div>
+                        <div class="template_name">
+                            <a href="#" class="name">
+                                Laravel 10 CRUD with MySqldjd<br>hsgfhs
+                            </a>
+                        </div>
+                        <div class="post_by">
+                            <span>By -> </span>
+                            <a href="#" class="by_user">Ankeara</a>
+                        </div>
+                        <div class="link_detail">
+                            <a href="#" class="detail">Start</a>
+                        </div>
+                    </div>
+                    <div class="item-template swiper-slide">
+                        <a href="#" class="template-img">
+                            <img src="../asset_frontend/image/profiles/japan-programming-women3.png" alt="html">
+                        </a>
+                        <div class="link_cate">
+                            <a href="#" class="cate">Development</a>
+                        </div>
+                        <div class="template_name">
+                            <a href="#" class="name">
+                                Laravel 10 CRUD with MySqldjd<br>hsgfhs
+                            </a>
+                        </div>
+                        <div class="post_by">
+                            <span>By -> </span>
+                            <a href="#" class="by_user">Ankeara</a>
+                        </div>
+                        <div class="link_detail">
+                            <a href="#" class="detail">Start</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="display_template mySwiper" id="development" style="display:none;">
+                <div class="box-template swiper-wrapper">
+                    <div class="item-template swiper-slide">
+                        <a href="#" class="template-img">
+                            <img src="../asset_frontend/image/profiles/japan-programming-men-left.png" alt="html">
+                        </a>
+                        <div class="link_cate">
+                            <a href="#" class="cate">Development</a>
+                        </div>
+                        <div class="template_name">
+                            <a href="#" class="name">
+                                ONE ONE<br>hsgfhs
+                            </a>
+                        </div>
+                        <div class="post_by">
+                            <span>By -> </span>
+                            <a href="#" class="by_user">Ankeara</a>
+                        </div>
+                        <div class="link_detail">
+                            <a href="#" class="detail">Start</a>
+                        </div>
+                    </div>
+                    <div class="item-template swiper-slide">
+                        <a href="#" class="template-img">
+                            <img src="../asset_frontend/image/profiles/japan-programming-women-left.png" alt="html">
+                        </a>
+                        <div class="link_cate">
+                            <a href="#" class="cate">Development</a>
+                        </div>
+                        <div class="template_name">
+                            <a href="#" class="name">
+                                Laravel 10 CRUD with MySqldjd<br>hsgfhs
+                            </a>
+                        </div>
+                        <div class="post_by">
+                            <span>By -> </span>
+                            <a href="#" class="by_user">Ankeara</a>
+                        </div>
+                        <div class="link_detail">
+                            <a href="#" class="detail">Start</a>
+                        </div>
+                    </div>
+                    <div class="item-template swiper-slide">
+                        <a href="#" class="template-img">
+                            <img src="../asset_frontend/image/profiles/japan-playboy3.png" alt="html">
+                        </a>
+                        <div class="link_cate">
+                            <a href="#" class="cate">Development</a>
+                        </div>
+                        <div class="template_name">
+                            <a href="#" class="name">
+                                Laravel 10 CRUD with MySqldjd<br>hsgfhs
+                            </a>
+                        </div>
+                        <div class="post_by">
+                            <span>By -> </span>
+                            <a href="#" class="by_user">Ankeara</a>
+                        </div>
+                        <div class="link_detail">
+                            <a href="#" class="detail">Start</a>
+                        </div>
+                    </div>
+                    <div class="item-template swiper-slide">
+                        <a href="#" class="template-img">
+                            <img src="../asset_frontend/image/profiles/japan-playboy4.png" alt="html">
+                        </a>
+                        <div class="link_cate">
+                            <a href="#" class="cate">Development</a>
+                        </div>
+                        <div class="template_name">
+                            <a href="#" class="name">
+                                Laravel 10 CRUD with MySqldjd<br>hsgfhs
+                            </a>
+                        </div>
+                        <div class="post_by">
+                            <span>By -> </span>
+                            <a href="#" class="by_user">Ankeara</a>
+                        </div>
+                        <div class="link_detail">
+                            <a href="#" class="detail">Start</a>
+                        </div>
+                    </div>
+                    <div class="item-template swiper-slide">
+                        <a href="#" class="template-img">
+                            <img src="../asset_frontend/image/profiles/japan-programming-men2.png" alt="html">
+                        </a>
+                        <div class="link_cate">
+                            <a href="#" class="cate">Development</a>
+                        </div>
+                        <div class="template_name">
+                            <a href="#" class="name">
+                                Laravel 10 CRUD with MySqldjd<br>hsgfhs
+                            </a>
+                        </div>
+                        <div class="post_by">
+                            <span>By -> </span>
+                            <a href="#" class="by_user">Ankeara</a>
+                        </div>
+                        <div class="link_detail">
+                            <a href="#" class="detail">Start</a>
+                        </div>
+                    </div>
+                    <div class="item-template swiper-slide">
+                        <a href="#" class="template-img">
+                            <img src="../asset_frontend/image/profiles/japan-programming-women.png" alt="html">
+                        </a>
+                        <div class="link_cate">
+                            <a href="#" class="cate">Development</a>
+                        </div>
+                        <div class="template_name">
+                            <a href="#" class="name">
+                                Laravel 10 CRUD with MySqldjd<br>hsgfhs
+                            </a>
+                        </div>
+                        <div class="post_by">
+                            <span>By -> </span>
+                            <a href="#" class="by_user">Ankeara</a>
+                        </div>
+                        <div class="link_detail">
+                            <a href="#" class="detail">Start</a>
+                        </div>
+                    </div>
+                    <div class="item-template swiper-slide">
+                        <a href="#" class="template-img">
+                            <img src="../asset_frontend/image/profiles/japan-programming-women3.png" alt="html">
+                        </a>
+                        <div class="link_cate">
+                            <a href="#" class="cate">Development</a>
+                        </div>
+                        <div class="template_name">
+                            <a href="#" class="name">
+                                Laravel 10 CRUD with MySqldjd<br>hsgfhs
+                            </a>
+                        </div>
+                        <div class="post_by">
+                            <span>By -> </span>
+                            <a href="#" class="by_user">Ankeara</a>
+                        </div>
+                        <div class="link_detail">
+                            <a href="#" class="detail">Start</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="display_template mySwiper" id="design" style="display:none;">
+                <div class="box-template swiper-wrapper">
+                    <div class="item-template swiper-slide">
+                        <a href="#" class="template-img">
+                            <img src="../asset_frontend/image/profiles/japan-playboy.png" alt="html">
+                        </a>
+                        <div class="link_cate">
+                            <a href="#" class="cate">Development</a>
+                        </div>
+                        <div class="template_name">
+                            <a href="#" class="name">
+                                ONE ONE<br>hsgfhs
+                            </a>
+                        </div>
+                        <div class="post_by">
+                            <span>By -> </span>
+                            <a href="#" class="by_user">Ankeara</a>
+                        </div>
+                        <div class="link_detail">
+                            <a href="#" class="detail">Start</a>
+                        </div>
+                    </div>
+                    <div class="item-template swiper-slide">
+                        <a href="#" class="template-img">
+                            <img src="../asset_frontend/image/profiles/japan-playboy2.png" alt="html">
+                        </a>
+                        <div class="link_cate">
+                            <a href="#" class="cate">Development</a>
+                        </div>
+                        <div class="template_name">
+                            <a href="#" class="name">
+                                Laravel 10 CRUD with MySqldjd<br>hsgfhs
+                            </a>
+                        </div>
+                        <div class="post_by">
+                            <span>By -> </span>
+                            <a href="#" class="by_user">Ankeara</a>
+                        </div>
+                        <div class="link_detail">
+                            <a href="#" class="detail">Start</a>
+                        </div>
+                    </div>
+                    <div class="item-template swiper-slide">
+                        <a href="#" class="template-img">
+                            <img src="../asset_frontend/image/profiles/japan-playboy3.png" alt="html">
+                        </a>
+                        <div class="link_cate">
+                            <a href="#" class="cate">Development</a>
+                        </div>
+                        <div class="template_name">
+                            <a href="#" class="name">
+                                Laravel 10 CRUD with MySqldjd<br>hsgfhs
+                            </a>
+                        </div>
+                        <div class="post_by">
+                            <span>By -> </span>
+                            <a href="#" class="by_user">Ankeara</a>
+                        </div>
+                        <div class="link_detail">
+                            <a href="#" class="detail">Start</a>
+                        </div>
+                    </div>
+                    <div class="item-template swiper-slide">
+                        <a href="#" class="template-img">
+                            <img src="../asset_frontend/image/profiles/japan-playboy4.png" alt="html">
+                        </a>
+                        <div class="link_cate">
+                            <a href="#" class="cate">Development</a>
+                        </div>
+                        <div class="template_name">
+                            <a href="#" class="name">
+                                Laravel 10 CRUD with MySqldjd<br>hsgfhs
+                            </a>
+                        </div>
+                        <div class="post_by">
+                            <span>By -> </span>
+                            <a href="#" class="by_user">Ankeara</a>
+                        </div>
+                        <div class="link_detail">
+                            <a href="#" class="detail">Start</a>
+                        </div>
+                    </div>
+                    <div class="item-template swiper-slide">
+                        <a href="#" class="template-img">
+                            <img src="../asset_frontend/image/profiles/japan-programming-men2.png" alt="html">
+                        </a>
+                        <div class="link_cate">
+                            <a href="#" class="cate">Development</a>
+                        </div>
+                        <div class="template_name">
+                            <a href="#" class="name">
+                                Laravel 10 CRUD with MySqldjd<br>hsgfhs
+                            </a>
+                        </div>
+                        <div class="post_by">
+                            <span>By -> </span>
+                            <a href="#" class="by_user">Ankeara</a>
+                        </div>
+                        <div class="link_detail">
+                            <a href="#" class="detail">Start</a>
+                        </div>
+                    </div>
+                    <div class="item-template swiper-slide">
+                        <a href="#" class="template-img">
+                            <img src="../asset_frontend/image/profiles/japan-programming-women.png" alt="html">
+                        </a>
+                        <div class="link_cate">
+                            <a href="#" class="cate">Development</a>
+                        </div>
+                        <div class="template_name">
+                            <a href="#" class="name">
+                                Laravel 10 CRUD with MySqldjd<br>hsgfhs
+                            </a>
+                        </div>
+                        <div class="post_by">
+                            <span>By -> </span>
+                            <a href="#" class="by_user">Ankeara</a>
+                        </div>
+                        <div class="link_detail">
+                            <a href="#" class="detail">Start</a>
+                        </div>
+                    </div>
+                    <div class="item-template swiper-slide">
+                        <a href="#" class="template-img">
+                            <img src="../asset_frontend/image/profiles/japan-programming-women3.png" alt="html">
+                        </a>
+                        <div class="link_cate">
+                            <a href="#" class="cate">Development</a>
+                        </div>
+                        <div class="template_name">
+                            <a href="#" class="name">
+                                Laravel 10 CRUD with MySqldjd<br>hsgfhs
+                            </a>
+                        </div>
+                        <div class="post_by">
+                            <span>By -> </span>
+                            <a href="#" class="by_user">Ankeara</a>
+                        </div>
+                        <div class="link_detail">
+                            <a href="#" class="detail">Start</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Explore our template -->
+
+    <!-- Show creator -->
+    <section>
+        <div class="creator_detail">
+            <div class="creator_left">
+                <h1 class="title_creator">Skill Creator 🔥</h1>
+                <h1 class="detail_creator">អ្នកបង្កើតនិងអ្នកសរសេរកម្មវិធីនេះ</h1>
+                <p class="des_creator">នេះអំពីពួកយើងដែលបានបង្កើត Website នេះឡើងនិងជាអ្នកបង្កើតមាតិកាផ្សេងៗ</p>
+                <div class="link-view">
+                    <a href="#">See All of Creator <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="creator_right">
+                <div class="box_creator">
+                    <div class="creators">
+                        <div class="box-profile">
+                            <a href="#" class="box_img">
+                                <img src="../asset_frontend/image/profiles/japan-programming-men.png" alt="creator">
+                            </a>
+                        </div>
+                        <div class="box_detail">
+                            <a href="#" class="name_creator">Lit Lit</a>
+                            <a href="#" class="skill">Developer</a>
+                            <ul class="list-wrap">
+                                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="creators">
+                        <div class="box-profile">
+                            <a href="#" class="box_img">
+                                <img src="../asset_frontend/image/profiles/japan-programming9.png" alt="creator">
+                            </a>
+                        </div>
+                        <div class="box_detail">
+                            <a href="#" class="name_creator">Prom Vuthy</a>
+                            <a href="#" class="skill">Developer</a>
+                            <ul class="list-wrap">
+                                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="box_creator">
+                    <div class="creators">
+                        <div class="box-profile">
+                            <a href="#" class="box_img">
+                                <img src="../asset_frontend/image/profiles/korean-women3.png" alt="creator">
+                            </a>
+                        </div>
+                        <div class="box_detail">
+                            <a href="#" class="name_creator">Chhun Rosa</a>
+                            <a href="#" class="skill">Web Design</a>
+                            <ul class="list-wrap">
+                                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="creators">
+                        <div class="box-profile">
+                            <a href="#" class="box_img">
+                                <img src="../asset_frontend/image/profiles/japan-playboy.png" alt="creator">
+                            </a>
+                        </div>
+                        <div class="box_detail">
+                            <a href="#" class="name_creator">Rithy Brembrey</a>
+                            <a href="#" class="skill">Developer</a>
+                            <ul class="list-wrap">
+                                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Show creator -->
+
+</body>
+<script src="../asset_frontend/js/main.js"></script>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 5,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                1440: {
+                    slidesPerView: 5,
+                },
+                1024: {
+                    slidesPerView: 3,
+                },
+                768: {
+                    slidesPerView: 2,
+                },
+                425: {
+                    slidesPerView: 2,
+                },
+                375: {
+                    slidesPerView: 2,
+                },
+                320: {
+                    slidesPerView: 2,
+                }
+            }
+        });
+
+</script>
+</html>
