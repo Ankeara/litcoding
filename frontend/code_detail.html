@@ -1,0 +1,441 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lit Coding || 2024</title>
+    <link rel="stylesheet" href="../asset_frontend/css/main.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <!-- Navbar start -->
+    <nav>
+        <div class="navbar">
+            <div class="left-menu">
+                <div class="logo-box">
+                    <a href="#" class="logo">
+                        <img src="../asset_frontend/image/lit-logo.png" alt="litcoding">
+                        <h2 class="logo-name">LitCoding.</h2>
+                    </a>
+                </div>
+                <ul class="menu-lists">
+                    <li><a href="#" class="links">Home</a></li>
+                    <li>
+                        <a href="#" class="links">Coding <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="sub-menu">
+                            <div class="line"></div>
+                            <li><a href="#">HTML & CSS</a></li>
+                            <li><a href="#">JavaScript</a></li>
+                            <li><a href="#">PHP & MySql</a></li>
+                            <li><a href="#">Laravel</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="links">Pages <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="sub-menu">
+                            <div class="line"></div>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Our Creator</a></li>
+                            <li><a href="#">Sign In</a></li>
+                            <li><a href="#">Sign Up</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="links">Blogs <i class="fa-solid fa-chevron-down"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="right-menu">
+                <div class="box-search">
+                    <div class="categories">
+                        <img src="../asset_frontend/image/menu.png" alt="category">
+                        <div class="category_drop drop">
+                            <span>Categories</span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                        <ul class="dropdown-categories">
+                            <div class="line"></div>
+                            <li><a href="#">All template</a></li>
+                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Design</a></li>
+                        </ul>
+                    </div>
+                    <div class="input-search">
+                        <form action="" method="post">
+                            <input type="text" name="search" id="search" placeholder="Search for template...">
+                            <button type="submit" class="icon-search">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <a href="#" id="loginLink" class="login">Ankeara</a>
+            </div>
+            <div class="menu-bar">
+                <img src="../asset_frontend/image/menu-bar.png" alt="menu-bar">
+            </div>
+        </div>
+        <!-- Navbar phone  -->
+        <div class="navbar-phone">
+            <div class="header-phone">
+                <div class="logo-box">
+                    <a href="#" class="logo">
+                        <img src="../asset_frontend/image/lit-logo.png" alt="litcoding">
+                        <h2 class="logo-name">LitCoding.</h2>
+                    </a>
+                </div>
+                <div class="x-menu">
+                    <i class="fa-solid fa-x"></i>
+                </div>
+            </div>
+            <div class="input-search-phone">
+                <form action="" method="post">
+                    <input type="text" name="search" id="search" placeholder="Search for template...">
+                    <button type="submit" class="icon-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </div>
+            <ul class="drop-menu-lists">
+                <li class="lists">
+                    <a href="#">Home</a>
+                </li>
+                <li class="lists">
+                    <div class="links">
+                        <a href="#">Coding</a>
+                        <div class="dropdown-btn">
+                            <span class="plus-line">+</span>
+                        </div>
+                    </div>
+                    <ul class="sub-menu">
+                        <li><a href="#">HTML & CSS</a></li>
+                        <li><a href="#">JavaScript</a></li>
+                        <li><a href="#">PHP & MySql</a></li>
+                        <li><a href="#">Laravel</a></li>
+                    </ul>
+                </li>
+                <li class="lists">
+                    <div class="links">
+                        <a href="#">Pages</a>
+                        <div class="dropdown-btn">
+                            <span class="plus-line">+</span>
+                        </div>
+                    </div>
+                    <ul class="sub-menu">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Our Creator</a></li>
+                        <li><a href="#">Sign In</a></li>
+                        <li><a href="#">Sign Up</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+        <div class="background-backdrop"></div>
+        <!-- Navbar phone  -->
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Location page -->
+    <div class="location_pages">
+        <div class="location_link">
+            <h2 class="location_name">Template coding</h2>
+            <span>Home </span>
+            <span> > </span>
+            <a href="#"> Coding</a>
+        </div>
+        <div class="univers">
+            <div class="univers-shape">
+                <div class="spacese one">
+                    <img src="../asset_frontend/image/univers/astronaut (1).png" alt="">
+                </div>
+                <div class="spacese two">
+                    <img src="../asset_frontend/image/univers/spiral-galaxy (1).png" alt="">
+                </div>
+                <div class="spacese tree">
+                    <img src="../asset_frontend/image/univers/spiral-galaxy.png" alt="">
+                </div>
+                <div class="spacese four">
+                    <img src="../asset_frontend/image/univers/universe.png" alt="">
+                </div>
+                <div class="spacese five">
+                    <img src="../asset_frontend/image/univers/rocket (1).png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Location page -->
+
+    <!-- Template and detail code -->
+    <section>
+        <div class="code_detail">
+            <div class="left_code">
+                <div class="detail_name">
+                    <h2 class="name">Create A Responsive Footer Section in HTML and CSS</h2>
+                </div>
+                <div class="box_image">
+                    <img src="../asset_frontend/image/courses_details (1).jpg" alt="">
+                </div>
+                <div class="detail_creator">
+                    <div class="creator_img">
+                        <img src="../asset_frontend/image/profiles/japan-programming-men.png" alt="">
+                    </div>
+                    <div class="creator_name">
+                        <p>by</p>
+                        <a href="#" class="name">Ankeara</a>
+                    </div>
+                    <div class="calendar">
+                        <i class="fa-regular fa-calendar"></i>
+                        <span> 21/5/2024</span>
+                    </div>
+                </div>
+                <div class="filter_template">
+                    <button class="tab-btn_code active" data-tab="detail_code">Over View</button>
+                    <button class="tab-btn_code" data-tab="detail_creator">Creator</button>
+                </div>
+                <div class="display_detail" id="detail_code" >
+                    <div class="des_one">
+                        <p>In this blog post, I’ll show you how to make a responsive footer using HTML and CSS. It’s a simple but great project for
+                        beginners, helping you understand how to set up a footer layout with HTML and give it a stylish, responsive design with
+                        CSS.</p>
+                    </div>
+                    <div class="title_youtube">
+                        <h3 class="title">Video Tutorial of Fiverr Website in HTML and CSS</h3>
+                    </div>
+                    <div class="video">
+                        <iframe width="870" height="500" src="https://www.youtube.com/embed/kJOqIaGwQ7Y?si=z40xm74udap6zjQH"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                        </iframe>
+                    </div>
+                     <div class="des_video">
+                        <p>If you enjoy learning through video tutorials, the above YouTube video is an excellent resource. In this video, I’ve
+                        explained each line of code and included informative comments to make the process of creating your own website with
+                        login and registration forms beginner-friendly and easy to follow.</p>
+                     </div>
+
+                    <!-- Html code and description -->
+                    <div class="header_html">
+                        <h3>Steps to Create Website Homepage HTML & CSS</h3>
+                    </div>
+                    <div class="des_html">
+                        <p>If you enjoy learning through video tutorials, the above YouTube video is an excellent resource. In this video,
+                            I’ve
+                            explained each line of code and included informative comments to make the process of creating your own website
+                            with
+                            login and registration forms beginner-friendly and easy to follow.</p>
+                    </div>
+                    <div class="code_html">
+                        <textarea 
+                            style="resize: none;">If you enjoy learning through video tutorials, the above YouTube video is an excellent resource. In this video, I’ve
+                                                                   explained each line of code and included informative comments to make the process of creating your own website with
+                                                                   login and registration forms beginner-friendly and easy to follow.</textarea>
+                    </div>
+                    <!-- Html code and description -->
+
+                    <!-- css code and description -->
+                    <div class="header_css">
+                        <h>Steps to Create Website Homepage css & CSS</h>
+                    </div>
+                    <div class="des_css">
+                        <p>If you enjoy learning through video tutorials, the above YouTube video is an excellent resource. In this video,
+                            I’ve
+                            explained each line of code and included informative comments to make the process of creating your own website
+                            with
+                            login and registration forms beginner-friendly and easy to follow.</p>
+                    </div>
+                    <div class="code_css">
+                        <textarea id="codeTextarea"
+                            style="resize: none;">If you enjoy learning through video tutorials, the above YouTube video is an excellent resource. In this video, I’ve
+                                                                                       explained each line of code and included informative comments to make the process of creating your own website with
+                                                                                       login and registration forms beginner-friendly and easy to follow.</textarea>
+                    </div>
+                    <div class="sub_des_css">
+                        <p>If you enjoy learning through video tutorials, the above YouTube video is an excellent resource. In this video,
+                            I’ve
+                            explained each line of code and included informative comments to make the process of creating your own website
+                            with
+                            login and registration forms beginner-friendly and easy to follow.</p>
+                    </div>
+                    <!-- css code and description -->
+
+                    <!-- javascript code and description -->
+                    <div class="header_javascript">
+                        <h3>Steps to Create Website Homepage javascript & CSS</h3>
+                    </div>
+                    <div class="des_javascript">
+                        <p>If you enjoy learning through video tutorials, the above YouTube video is an excellent resource. In this video,
+                            I’ve
+                            explained each line of code and included informative comments to make the process of creating your own website
+                            with
+                            login and registration forms beginner-friendly and easy to follow.</p>
+                    </div>
+                    <div class="code_javascript">
+                        <textarea
+                            style="resize: none;">If you enjoy learning through video tutorials, the above YouTube video is an excellent resource. In this video, I’ve
+                                                                                       explained each line of code and included informative comments to make the process of creating your own website with
+                                                                                       login and registration forms beginner-friendly and easy to follow.</textarea>
+                    </div>
+                    <div class="sub_des_javascript">
+                        <p>If you enjoy learning through video tutorials, the above YouTube video is an excellent resource. In this video,
+                            I’ve
+                            explained each line of code and included informative comments to make the process of creating your own website
+                            with
+                            login and registration forms beginner-friendly and easy to follow.</p>
+                    </div>
+                    <!-- javascript code and description -->
+
+                    <!-- php code and description -->
+                    <div class="header_php">
+                        <h3>Steps to Create Website Homepage php & CSS</h3>
+                    </div>
+                    <div class="des_php">
+                        <p>If you enjoy learning through video tutorials, the above YouTube video is an excellent resource. In this video,
+                            I’ve
+                            explained each line of code and included informative comments to make the process of creating your own website
+                            with
+                            login and registration forms beginner-friendly and easy to follow.</p>
+                    </div>
+                    <div class="code_php">
+                        <textarea
+                            style="resize: none;">If you enjoy learning through video tutorials, the above YouTube video is an excellent resource. In this video, I’ve
+                                                                                       explained each line of code and included informative comments to make the process of creating your own website with
+                                                                                       login and registration forms beginner-friendly and easy to follow.</textarea>
+                    </div>
+                    <div class="sub_des_php">
+                        <p>If you enjoy learning through video tutorials, the above YouTube video is an excellent resource. In this video,
+                            I’ve
+                            explained each line of code and included informative comments to make the process of creating your own website
+                            with
+                            login and registration forms beginner-friendly and easy to follow.</p>
+                    </div>
+                    <!-- php code and description -->
+
+                </div>      
+                <div class="display_detail" id="detail_creator" style="display:none;">
+                    <div class="creators">
+                        <div class="box-profile">
+                            <a href="#" class="box_img">
+                                <img src="../asset_frontend/image/profiles/japan-programming-men.png" alt="creator">
+                            </a>
+                        </div>
+                        <div class="box_detail">
+                            <a href="#" class="name_creator">Lit Lit</a>
+                            <a href="#" class="skill">Developer</a>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio eaque accusamus repellat cum, fuga maxime temporibus ipsam ea dolores dicta repellendus quod optio nesciunt magni neque sit ipsa facilis sunt.</p>
+                            <ul class="list-wrap">
+                                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right_code">
+                <h3>Recent post</h3>
+                <div class="blog_recents">
+                    <div class="blog_post">
+                        <div class="blog_img">
+                            <img src="../asset_frontend/image/Programming pic/bootstrap.jpg" alt="">
+                        </div>
+                        <div class="detail_recent">
+                            <div class="recent_title">
+                                <a href="#" class="title">Create A Sidebar Menu using HTML and CSS only</a>
+                            </div>
+                            <div class="post_date">
+                                <div class="calendar">
+                                    <i class="fa-regular fa-calendar"></i>
+                                    <span style="font-size: 13px;"> 21/5/2024</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog_post">
+                        <div class="blog_img">
+                            <img src="../asset_frontend/image/Programming pic/Figma.jpg" alt="">
+                        </div>
+                        <div class="detail_recent">
+                            <div class="recent_title">
+                                <a href="#" class="title">Create A Sidebar Menu using HTML and CSS only</a>
+                            </div>
+                            <div class="post_date">
+                                <div class="calendar">
+                                    <i class="fa-regular fa-calendar"></i>
+                                    <span style="font-size: 13px;"> 21/5/2024</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog_post">
+                        <div class="blog_img">
+                            <img src="../asset_frontend/image/Programming pic/flutter.jpg" alt="">
+                        </div>
+                        <div class="detail_recent">
+                            <div class="recent_title">
+                                <a href="#" class="title">Create A Sidebar Menu using HTML and CSS only</a>
+                            </div>
+                            <div class="post_date">
+                                <div class="calendar">
+                                    <i class="fa-regular fa-calendar"></i>
+                                    <span style="font-size: 13px;"> 21/5/2024</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog_post">
+                        <div class="blog_img">
+                            <img src="../asset_frontend/image/Programming pic/laravel.png" alt="">
+                        </div>
+                        <div class="detail_recent">
+                            <div class="recent_title">
+                                <a href="#" class="title">Create A Sidebar Menu using HTML and CSS only</a>
+                            </div>
+                            <div class="post_date">
+                                <div class="calendar">
+                                    <i class="fa-regular fa-calendar"></i>
+                                    <span style="font-size: 13px;"> 21/5/2024</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h3>Sub Categories</h3>
+                <div class="sub_cate">
+                    <ul>
+                        <li><a href="#">HTML & CSS<span>0</span></a></li>
+                        <li><a href="#">JavaScript<span>0</span></a></li>
+                        <li><a href="#">React JS<span>0</span></a></li>
+                        <li><a href="#">PHP<span>0</span></a></li>
+                        <li><a href="#">Laravel<span>0</span></a></li>
+                        <li><a href="#">MySql<span>0</span></a></li>
+                        <li><a href="#">C#<span>0</span></a></li>
+                        <li><a href="#">Sql Server<span>0</span></a></li>
+                    </ul>
+                </div>
+                <h3>Tag Category</h3>
+                <div class="tag_cate">
+                    <span>Tag</span>
+                    <a href="#">Development</a>
+                    <a href="#">Design</a>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <!-- Template and detail code -->
+</body>
+<script src="../asset_frontend/js/main.js"></script>
+
+</html>
